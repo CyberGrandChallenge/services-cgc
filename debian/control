@@ -1,0 +1,16 @@
+Source: services-cgc
+Section: devel
+Priority: standard
+Maintainer: Brian Caswell <bmc@lungetech.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://www.darpa.mil/cybergrandchallenge/
+
+Package: services-cgc
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: CGC Services
+ Network services entries for DARPA Cyber Grand Challenge (CGC) network
+ applications.
+ .
+ Defines which ports are used by network services within CGC.
